@@ -3,6 +3,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\NetCoreServer\IEchoService.cs" Link="IEchoService.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="System" />
