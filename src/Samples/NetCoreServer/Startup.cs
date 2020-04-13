@@ -18,8 +18,7 @@ namespace NetCoreServer
             app.UseServiceModel(builder =>
             {
                 builder.AddService<EchoService>();
-                builder.AddServiceEndpoint<EchoService, Contract.IEchoService>(new BasicHttpBinding(), "/basichttp");
-                builder.AddServiceEndpoint<EchoService, Contract.IEchoService>(new NetTcpBinding(), "/nettcp");
+                builder.AddServiceEndpoint<EchoService, Contract.IEchoService>(new BasicHttpBinding(), "/clientcenter/mt");
             });
         }
     }

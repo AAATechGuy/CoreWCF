@@ -15,9 +15,8 @@ namespace NetCoreServer
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            .UseKestrel(options => { options.ListenLocalhost(8080); })
-            .UseUrls("http://localhost:8080")
-            .UseNetTcp(8808)
+            .UseKestrel(options => { options.ListenLocalhost(3090); })
+            .UseUrls("http://localhost:3090")
             .UseStartup<Startup>();
     }
 }

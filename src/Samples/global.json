@@ -1,0 +1,12 @@
+{
+  "sdk": {
+    "version": "3.1.200"
+  },
+  "msbuild-sdks": {
+    // Defines version of MSBuild project SDKs to use 
+    // https://docs.microsoft.com/en-us/visualstudio/msbuild/how-to-use-project-sdk?view=vs-2017#how-project-sdks-are-resolved
+    "Microsoft.Build.CentralPackageVersions": "2.0.52",
+    "Microsoft.Build.Traversal": "2.0.2",
+    "Microsoft.Build.NoTargets": "1.0.73"
+  }
+}
